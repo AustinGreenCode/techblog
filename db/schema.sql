@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS tech_db;
+
+CREATE DATABASE tech_db;
+
+CREATE TABLE posts(
+  id INTEGER NOT NULL,
+  review_int INTEGER NOT NULL
+);
